@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "texas";
+    src: url("../fonts/TEXAT.otf");
+}@font-face {
+    font-family: "Carnivalee";
+    src: url("../fonts/Carnevalee.ttf");
+}@font-face {
+    font-family: "";
+}
+.container{
+    font-family: Carnivalee;
+    max-width: 300px;
+    margin:auto;
+    background: linear-gradient(90deg, #da4453 0%, #89216b 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black ;
+
+}
+
+h1{
+    font-family: texas;
+    font-size: 1.7em;
+    margin-top: 0;
+    text-shadow: 3px 3px 3px black;
+
+}
+p{
+    font-size: 1.2em;
+}
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+input:focus{
+    background-color: lightgray;
+}
+button{
+    font-family: Carnivalee;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 5px;
+    text-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 2px black ;
+}
+button:hover{
+    background-color: rgba(255, 127, 80, 0.88);
+}
